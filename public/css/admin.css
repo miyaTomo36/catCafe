@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;  
+}
+
+.header-area {
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+/* ナビゲーション */
+.nav {
+    background-color: #333;
+    padding: 5px 40px;
+}
+
+.navber {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-list {
+    margin: 0 5%;
+}
+
+.nav-list a {
+    color: white;
+    font-size: 0.9rem;
+    transition: 0.1s ease-out;
+}
+
+.nav-list a:hover {
+    border-bottom: 2px solid red;
+}
+
